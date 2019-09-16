@@ -1,15 +1,4 @@
-/*
-GAME RULES:
 
-- The game has 2 players, playing in rounds
-- In each turn, a player rolls two dice as many times as he whishes. Each result get added to his current score
-- The player looses his CURRENT score when one of them is a 1. After that, it's the next player's turn
-- A player looses his ENTIRE score when he rolls two 6 in the same time. After that, it's the next player's turn.
-- The player can choose to 'Hold', which means that his CURRENT score gets added to his ENTIRE score. After that, it's the next player's turn.
-- Players can set the winning score, so that they can change the predefined score of 100.
-- The first player to reach the winning score on ENTIRE score wins the game
-
-*/
 
 var scores, roundScore, activePlayer, gamePlaying, dice1, dice2, winningScore;
 
@@ -22,11 +11,7 @@ var $ = function(id) {
 
 init();
 
-/*
-document.querySelector('.help-circle').addEventListener('click', function() {
-	window.document.alert('dsfsdfsdf');
-}
-*/
+
 
 document.querySelector('.btn-roll').addEventListener('click', function() {
 	
